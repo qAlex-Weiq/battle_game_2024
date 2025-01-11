@@ -1,1 +1,2 @@
 cmake -S /home/alexwei/itp/battle_game_2024 -B /home/alexwei/itp/battle_game_2024/build -DCMAKE_TOOLCHAIN_FILE=/home/alexwei/vcpkg/scripts/buildsystems/vcpkg.cmake
+./src/battle_game/battle_game

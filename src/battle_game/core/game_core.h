@@ -98,12 +98,12 @@ class GameCore {
       const {
     return bullets_;
   }
-  [[nodiscard]] const std::map<uint32_t, std::unique_ptr<Particle>>
-      &GetParticles() const {
+  [[nodiscard]] const std::map<uint32_t, std::unique_ptr<Particle>> &
+  GetParticles() const {
     return particles_;
   }
-  [[nodiscard]] const std::map<uint32_t, std::unique_ptr<Obstacle>>
-      &GetObstacles() const {
+  [[nodiscard]] const std::map<uint32_t, std::unique_ptr<Obstacle>> &
+  GetObstacles() const {
     return obstacles_;
   }
   [[nodiscard]] const std::map<uint32_t, std::unique_ptr<Player>> &GetPlayers()
